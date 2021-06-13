@@ -1,19 +1,35 @@
 class Queue {
     constructor(arr = []) {
-        this.list = arr;
+        this.items = arr;
     }
+
     enqueue = element => {
-        this.list.push(element);
+        this.items.push(element);
     }
+
     dequeue = () => {
-        this.list.shift();
+        this.items.shift();
     }
+
+    front = () => {
+        return this.items[0]
+    }
+
+    isEmpty = () => {
+        return this.items.length === 0
+    }
+
+    size = () => {
+        return this.items.length
+    }
+
     clear = () => {
-        this.list = []
+        this.items = []
     }
+
     print = () => {
-        console.log(this.list.toString)
-        return this.list.toString
+        console.log(this.items.toString())
+        return this.items.toString()
     }
 }
 

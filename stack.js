@@ -1,26 +1,35 @@
 class Stack {
     constructor(arr = []) {
-        this.list = arr
+        this.items = arr
     }
 
     push = element => {
-        this.list.push(element)
+        this.items.push(element)
     }
 
     pop = () => {
-        return this.list.pop()
+        return this.items.pop()
+    }
+
+    peek = () => {
+        return this.items[this.items.length - 1]
+    }
+
+    isEmpty = () => {
+        return this.items.length === 0
     }
 
     clear = () => {
-        this.list = []
+        this.items = []
     }
 
     size = () => {
-        return this.list.length
+        return this.items.length
     }
 
     print = () => {
-        console.log(this.list.toString)
+        console.log(this.items.toString())
+        return this.items.toString()
     }
 
 }
