@@ -1,4 +1,4 @@
-const Queue = require('./Queue');
+const Queue = require('./queue');
 
 
 describe('Queue data structure tests collection', () => {
