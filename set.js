@@ -19,11 +19,18 @@ class Set {
     has = item => {
         return this.items.hasOwnProperty(item)
     }
+    clear = () => {
+        this.items = {}
+    }
     size = () => {
         return Object.keys(this.items).length
     }
     values = () => {
-
+        let values = []
+        for (let key in this.items) {
+            values.push(this.items[key])
+        }
+        return values
     }
 }
 
