@@ -23,6 +23,7 @@ describe('general Set data structure tests', () => {
         newSet.add(3)
         newSet.delete(2)
         expect(newSet.items).toEqual({ 1: 1, 3: 3 })
+        expect(newSet.delete(2)).toEqual(false)
     })
     test('HAS method testing', () => {
         const newSet = new Set();
