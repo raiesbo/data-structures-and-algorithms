@@ -7,7 +7,11 @@ describe('Linked list set of tests', () => {
         expect(newLinkedList).toBeInstanceOf(LinkedList)
     })
     test('Linked List append functionality', () => {
-
+        const newLinkedList = new LinkedList();
+        newLinkedList.append(3)
+        expect(newLinkedList.size()).toEqual(1)
+        newLinkedList.append(5)
+        expect(newLinkedList.size()).toEqual(2)
     })
     test('Linked List insert functionality', () => {
 
