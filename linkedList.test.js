@@ -12,6 +12,8 @@ describe('Linked list set of tests', () => {
         expect(newLinkedList.size()).toEqual(1)
         newLinkedList.append(5)
         expect(newLinkedList.size()).toEqual(2)
+        newLinkedList.append(4)
+        expect(newLinkedList.size()).toEqual(3)
     })
     test('Linked List insert functionality', () => {
 
