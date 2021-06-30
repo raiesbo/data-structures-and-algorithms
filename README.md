@@ -27,7 +27,7 @@ Collection of knowledge acquired through the following books:
 - [ ] Quick sort
 - [ ] Merge sort
 - [ ] Insertion sort
-- [ ] Selection sort
-- [ ] Bubble sort
+- [x] Selection sort
+- [x] Bubble sort
 - [ ] BFS
 - [ ] DFS
