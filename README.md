@@ -25,8 +25,8 @@ Collection of knowledge acquired through the following books:
 - [ ] Binary search
 - [ ] Sequential search
 - [ ] Quick sort
-- [ ] Merge sort
-- [ ] Insertion sort
+- [x] Merge sort
+- [x] Insertion sort
 - [x] Selection sort
 - [x] Bubble sort
 - [ ] BFS
