@@ -1,13 +1,18 @@
-# JavaScript Data Structures And Algorithms
+# Data Structures And Algorithms
 
-Implementation and example of algorithms and data structures in JavaScript.
+Implementation and example of algorithms and data structures in:
+
+- JavaScript
+- Golang
+- C
 
 Collection of knowledge acquired through the following books:
 
 - Learning JavaScript Data Structures and Alfgorithms - Loiane Groner
 - Grokking Algorithms - Aditya Bhargava
+- Other resources
 
-## Content
+## Content (in at least one language):
 
 ### Data Structures
 
