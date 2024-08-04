@@ -36,3 +36,16 @@ Collection of knowledge acquired through the following books:
 - [x] Bubble sort
 - [ ] BFS
 - [ ] DFS
+
+
+### Notes:
+
+#### Interfaces
+- Specifications
+- What data can store
+- What operations are supported and what they mean
+
+#### Data Structures:
+- Representation
+- How to store data
+- Algorithms to support operations
